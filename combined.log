@@ -1,0 +1,2 @@
+{"level":"info","message":"Admin@gmail.com","service":"user-service"}
+{"level":"error","message":"Illegal arguments: string, undefined","service":"user-service"}

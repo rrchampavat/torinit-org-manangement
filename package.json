@@ -1,0 +1,48 @@
+{
+  "name": "organisation-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' --files src/server.ts",
+    "prepare": "husky install",
+    "eslint": "eslint . --ext ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "knex": "^2.4.2",
+    "mysql2": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "objection": "^3.0.1",
+    "pg": "^8.11.0",
+    "ts-node": "^10.9.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.1",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.1.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  }
+}
